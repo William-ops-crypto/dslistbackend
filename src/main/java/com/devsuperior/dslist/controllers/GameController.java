@@ -24,7 +24,7 @@ public class GameController {
 	
 	
 	@GetMapping
-	public List<GameMinDTO> fingAll(){
+	public List<GameMinDTO> findAll(){
 		
 		List<GameMinDTO> result = gameService.findAll();
 		return result;
@@ -35,7 +35,7 @@ public class GameController {
 	
 	
 	@GetMapping(value = "/{id}")
-	public GameDTO fingAll(@PathVariable Long id){
+	public GameDTO findAll(@PathVariable Long id){
 		
 		GameDTO result = gameService.findById(id);
 		return result;
