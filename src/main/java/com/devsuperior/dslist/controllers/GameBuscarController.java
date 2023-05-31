@@ -17,7 +17,7 @@ import com.devsuperior.dslist.services.GameBuscarService;
 
 
 @RestController
-@CrossOrigin(origins = "https://catalogo-games-production.up.railway.app") 
+@CrossOrigin(origins = "https://catalogo-games-production.up.railway.app/") 
 @RequestMapping(value = "/buscar")
 
 
